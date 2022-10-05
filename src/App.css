@@ -1,0 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
+.preview-card {
+  border: 1px solid black;
+}
