@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial , Helvetica , sans-serif;
+}
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.center {
+  justify-content: center;
+}
+
+.center-all {
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  max-width: 1100px;
+  text-align: center;
+}
+
+.planets-container {
+  padding: 0 30px;
+}
+
+.planet-card {
+  height: 180px;
+  width: 130px;
+}
+
+.planet-img {
+  transition: 100ms;
+  width: 130px;
+}
+
+.planet-img:hover {
+  width: 190px;
+}
+
+.title, .mission-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 1px solid white;
+  border-radius: 12px;
+  margin: 1rem;
+}
+
+.mission-card {
+  flex-basis: 30%;
+  flex-grow: 1;
+  min-width: 200px;
+  padding: 1rem;
+  text-align: left;
+}
+
+.mission-card:hover {
+  background-color: rgb(28, 28, 28);
+}
